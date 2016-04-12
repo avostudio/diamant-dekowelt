@@ -1,0 +1,1 @@
+angular.module("deko",["ui.router","ui.bootstrap"]).config(function(o,t){t.when("","/"),o.state("root",{"abstract":!0,url:"",views:{"@":{}}})});
